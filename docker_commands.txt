@@ -1,0 +1,12 @@
+-- build docker image
+docker build -t ageos/ol8_python_oradb .
+
+-- create and run container, remove container when container is stopped
+docker run -it --rm ageos/ol8_python_oradb -v ./scripts:scripts
+
+
+-- met docker compose:
+
+docker-compose up -d
+
+docker-compose exec ol8_python_oradb bash

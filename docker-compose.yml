@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  ol8-phython:
+    image:  ageos/ol8_python_oradb
+    container_name: ageos_ol8thick-phython
+    restart: always
+    volumes:  
+      - ./scripts:/scripts
+    stdin_open: true 
+    tty: true  
