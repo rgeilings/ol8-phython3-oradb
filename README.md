@@ -1,4 +1,4 @@
-# ol8thick-phython
+# ol8thick-phython-oradb
 This docker project creates an 'Oracle Linux Server release 8.9' with a thick instant client and Python3, including Python library oracledb.
 Using the execQuery.py script it becomes possible to execute an SQL script on a number of predefined Oracle databases.
 
