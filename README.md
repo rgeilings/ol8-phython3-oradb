@@ -66,6 +66,5 @@ bash-4.4#
 
 If you want to recreate the docker image you need to download the following files from Oracle (https://www.oracle.com/nl/database/technologies/instant-client/linux-x86-64-downloads.html) and put these in the same directory as the Dockerfile. If you only want to use the ageos/ol8 image, this is not necessary.
 
-instantclient-sqlplus-linux.x64-21.12.0.0.0dbru.zip
-
-instantclient-basic-linux.x64-21.12.0.0.0dbru.zip
+`instantclient-sqlplus-linux.x64-21.12.0.0.0dbru.zip`
+`instantclient-basic-linux.x64-21.12.0.0.0dbru.zip`
